@@ -12,6 +12,7 @@ const HeroSection = () => {
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-400">
                             Bonjour, je suis {" "}
                         </span>
+                        <br /><br /><br /><br />
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
