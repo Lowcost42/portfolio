@@ -13,6 +13,7 @@ const HeroSection = () => {
                             Bonjour, je suis {" "}
                         </span>
                         <br />
+                        <br />
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
