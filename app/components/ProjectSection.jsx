@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
-const ProjectsData = () => [
+const projectsData = () => [
     {
         id: 1,
         title: "Site Vitrine",
@@ -43,8 +43,15 @@ const ProjectSection = () => {
     return (
         <>
             <h2>Mes Projets</h2>
+            <div>{projectsData.map((project) =>
+                <ProjectCard key={project.id}
+                    title={project.title}
+                    description={project.description}
+                    imgUrl={project.image} />
+            )}
+            </div>
         </>
-    )
-}
+    );
+};
 
 export default ProjectSection
