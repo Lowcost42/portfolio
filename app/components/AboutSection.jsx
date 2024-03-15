@@ -37,7 +37,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Stage 6 semaines chez "AuxPlaisirDeGrandir" en Télétravail (no-code : WordPress)</li>
-                <li>Stage 6 semaines chez Computer.com à Le Puy en Velay (no-code : WordPress)</li>
+                <li>Stage 6 semaines chez Computer.com à Le Puy en Velay (no-code : maintenance informatique)</li>
             </ul>
         )
     }
@@ -59,9 +59,8 @@ const AboutSection = () => {
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>A propos de moi</h2>
                     <p className='text-base md:text-lg'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Je m'appelle Dede Niyazi, j'ai 20 ans, je suis en BTS SIO 2ème année spécialisé SLAM (Solution Logicielles et Applications Métiers).
+                        À la suite de ma réorientation, je souhaite aujourd'hui effectuer une carrière dans l'informatique
                     </p>
                     <div className='flex flex-row mt-8'>
                         <TabButton
