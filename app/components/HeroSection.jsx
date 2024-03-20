@@ -9,7 +9,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-400">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-400">
                             Bonjour, je suis {" "}
                         </span>
                         <br />
@@ -31,10 +31,10 @@ const HeroSection = () => {
                         Actuellement, je me forme sur Symfony pour enrichir mes compétences.
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-orange-500 via-yellow-600 to-yellow-400  text-white ">
+                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-secondary-600 to-secondary-400  text-white ">
                             Contactez-moi
                         </button>
-                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-orange-500 via-yellow-600 to-yellow-400  text-white mt-3">
+                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-primary-500 via-secondary-600 to-secondary-400  text-white mt-3">
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                                 <a href="/images/CV.pdf" download>Téléchargez mon CV</a>
                             </span>
