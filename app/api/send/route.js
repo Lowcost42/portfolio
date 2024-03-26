@@ -4,8 +4,8 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
 
-// console.log(resend);
-// console.log(fromEmail);
+console.log(resend);
+console.log(fromEmail);
 
 export async function POST(req, res) {
     const { email, objet, message } = await req.json();
