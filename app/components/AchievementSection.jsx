@@ -3,34 +3,34 @@ import React from 'react'
 import dynamic from 'next/dynamic';
 
 const AnimatedNumbers = dynamic(
-    () => {
-        return import("react-animated-numbers");
-    },
-    { ssr: false }
+  () => {
+    return import("react-animated-numbers");
+  },
+  { ssr: false }
 );
 
 const achievementsList = [
-    {
-        metric: "Projets",
-        value: "6+",
-        plus: "+",
-    },
-    {
-        metric: "Certifications",
-        value: "3+",
-        plus: "+",
+  {
+    metric: "Projets",
+    value: "6+",
+    plus: "+",
+  },
+  {
+    metric: "Certifications",
+    value: "3+",
+    plus: "+",
 
-    },
-    {
-        metric: "Langages Maitrisés",
-        value: "7+",
-        plus: "+",
-    },
-    {
-        metric: "Années",
-        value: "3+",
-        plus: "+",
-    },
+  },
+  {
+    metric: "Langages Maitrisés",
+    value: "7+",
+    plus: "+",
+  },
+  {
+    metric: "Années",
+    value: "3+",
+    plus: "+",
+  },
 ]
 
 const AchievementsSection = () => {

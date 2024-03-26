@@ -62,7 +62,7 @@ const AboutSection = () => {
                         Je m'appelle Dede Niyazi, j'ai 21 ans, je suis en BTS SIO 2ème année spécialisé SLAM (Solution Logicielles et Applications Métiers).
                         À la suite de ma réorientation, je souhaite aujourd'hui effectuer une carrière dans l'informatique
                     </p>
-                    <div className='flex flex-row mt-8'>
+                    <div className='flex flex-row justify-center items-center mt-8'>
                         <TabButton
                             selectTab={() => handleTabChange("competences")}
                             active={tab === "competences"}
