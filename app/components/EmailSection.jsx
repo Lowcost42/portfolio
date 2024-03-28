@@ -43,11 +43,9 @@ const EmailSection = () => {
                 </h5>
                 <p className='text-[#ADB7BE] mb-4 max-w-md'>
                     {" "}
-                    Je recherche de nouvelles opportunités tel qu'une
-                    entreprise pour commencer une alternance en développement web.
-                    Ma boite e-mail est prête à recevoir des offres.
-                    Si vous avez des questions ou autre
-                    n'hésitez pas à m'envoyer un e-mail, je reviendrais très vite vers vous !
+                    Je recherche de nouvelles opportunités telles qu'une entreprise pour commencer une alternance en développement web.
+                    Mon adresse e-mail est prête à recevoir des offres.
+                    Si vous avez des questions ou autre, n'hésitez pas à m'envoyer un e-mail, je vous répondrai rapidement !
                 </p>
                 <div className='socials flex flex-row gap-2'>
                     <Link href='https://github.com/Lowcost42' target='_blank'>
