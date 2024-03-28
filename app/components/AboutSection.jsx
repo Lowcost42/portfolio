@@ -25,9 +25,9 @@ const TAB_DATA = [
         id: 'formations',
         content: (
             <ul className='list-disc pl-2'>
-                <li>BTS SIO (Services Informatiques aux Organisations) Lycée LaChartreuse Paradis</li>
+                <li>BTS SIO (Services Informatiques aux Organisations) Lycée La Chartreuse Paradis</li>
                 <li>Formations HTML, CSS et PHP sur le site OpenClassRooms</li>
-                <li>Bac Pro TFCA (Technicien du Froid et du Conditionnement d'Air) Lycée LaChartreuse Paradis</li>
+                <li>Bac Pro TFCA (Technicien du Froid et du Conditionnement d'Air) Lycée La Chartreuse Paradis</li>
             </ul>
         )
     },
