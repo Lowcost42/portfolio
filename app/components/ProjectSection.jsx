@@ -25,7 +25,7 @@ const projectsData = () => [
     },
     {
         id: 3,
-        title: "Site dynamique no-MVC",
+        title: "Site dynamique MVC",
         description: "Mon projet personnel de ma deuxième année de BTS SIO",
         image: "/images/project/3.png",
         tag: ["Tout", "Web"],
