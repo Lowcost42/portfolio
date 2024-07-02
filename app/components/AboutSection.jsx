@@ -59,7 +59,7 @@ const AboutSection = () => {
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>A propos de moi</h2>
                     <p className='text-base md:text-lg'>
-                        Je m'appelle Dede Niyazi, j'ai 21 ans, je suis en BTS SIO 2ème année spécialisé SLAM (Solution Logicielles et Applications Métiers).
+                        Je m'appelle Dede Niyazi, j'ai 21 ans, je suis en Bachelor 3ème année spécialisé DEVOPS (Développement, Opérations informatiques, ingénierie Qualité et Sécurité).
                         À la suite de ma réorientation, je souhaite aujourd'hui effectuer une carrière dans l'informatique
                     </p>
                     <div className='flex flex-row justify-center items-center mt-8'>
