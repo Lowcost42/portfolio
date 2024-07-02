@@ -33,7 +33,7 @@ const HeroSection = () => {
                     </h1>
                     <p className="text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-xl">
                         Développeur front-end polyvalent, j'utilise HTML/CSS/PHP pour créer des sites web dynamiques.
-                        Actuellement, je me forme sur Symfony pour enrichir mes compétences.
+                        Actuellement, je recherche une alternance pour enrichir mes compétences.
                     </p>
                     <div>
                         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-secondary-600 to-secondary-400  text-white ">
